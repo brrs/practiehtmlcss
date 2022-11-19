@@ -94,3 +94,9 @@ body {
     background-color: rgb(207, 194, 135);
     color: #022a3b;
 }
+
+@media (max-width: 900px) {
+    .container {
+        padding: 0 20px;
+    }
+}
