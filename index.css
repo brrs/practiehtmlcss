@@ -77,7 +77,6 @@
 .solution-item-text-subtitle {
     font-size: 1.2rem;
     color: #c9c8c8;
-    ;
 }
 
 .call-to-action-window {
@@ -283,5 +282,9 @@ footer a {
 
     .solution-item img {
         width: 4rem;
+    }
+
+    .solution-item-text {
+        padding-left: 0.5rem;
     }
 }
