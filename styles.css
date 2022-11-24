@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 2.125rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
 body {
     padding: 0;
     margin: 0;
     background-color: #022a3b;
     font-family: Poppins, sans-serif;
-    font-size: 1.2rem;
     color: white;
     min-height: 100vh;
 }
@@ -54,7 +65,7 @@ body {
 }
 
 .main-nav a:hover {
-    color: rgb(163, 163, 163);
+    color: #a3a3a3;
 }
 
 .main-header {
@@ -79,14 +90,14 @@ body {
 }
 
 .button {
-    color: rgb(207, 194, 135);
+    color: #cfc287;
     font-weight: bold;
     background-color: transparent;
     padding: .5rem 2rem;
     border-radius: .5rem;
     text-decoration: none;
     font-size: 1.5rem;
-    border: 3px solid rgb(207, 194, 135);
+    border: 3px solid #cfc287;
     cursor: pointer;
 }
 
