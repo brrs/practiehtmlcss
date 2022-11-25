@@ -61,17 +61,16 @@
 }
 
 .solution-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-}
-
-.solution-item-text {
-    padding-left: 2rem;
+    grid-gap: 2rem;
 }
 
 .solution-item-text-title {
     font-size: 2rem;
+    padding: 0;
+    margin: 0;
 }
 
 .solution-item-text-subtitle {
@@ -104,14 +103,7 @@
     margin: auto 2rem auto 4rem;
     display: flex;
     flex-direction: column;
-}
-
-.call-to-action-text div {
-    margin-top: 1.5rem;
-}
-
-.call-to-action-text div:first-child {
-    margin-top: 0;
+    gap: 1.5rem;
 }
 
 .call-to-action-title {
@@ -282,9 +274,5 @@ footer a {
 
     .solution-item img {
         width: 4rem;
-    }
-
-    .solution-item-text {
-        padding-left: 0.5rem;
     }
 }
