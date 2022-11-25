@@ -279,6 +279,7 @@ footer a {
     .benefit-item {
         display: flex;
         flex-direction: column;
+        max-height: initial;
     }
 
     .benefit-item:first-child {
