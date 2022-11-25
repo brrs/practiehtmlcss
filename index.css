@@ -278,11 +278,11 @@ footer a {
 
     .benefit-item {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         max-height: initial;
     }
 
-    .benefit-item:first-child {
-        flex-direction: column-reverse;
+    .benefit-item:nth-child(even){
+        flex-direction: column;
     }
 }
