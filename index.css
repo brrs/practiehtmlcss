@@ -275,4 +275,13 @@ footer a {
     .solution-item img {
         width: 4rem;
     }
+
+    .benefit-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefit-item:first-child {
+        flex-direction: column-reverse;
+    }
 }
