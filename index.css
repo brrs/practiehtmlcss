@@ -83,14 +83,14 @@
 }
 
 .call-to-action-container {
-    margin-top: 4rem;
+    margin-top: 2rem;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: black;
-    padding: 2rem;
-    border-radius: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0px 3px 3px 0px #ccc;
 }
 
@@ -102,24 +102,19 @@
     margin: auto 2rem auto 4rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-}
-
-.call-to-action-title {
+    gap: 1rem;
     color: #022a3b;
-    font-size: 2rem;
-    font-weight: bold;
 }
 
 .call-to-action-subtitle {
     color: #022a3b;
-    font-size: 1.8rem;
 }
 
 .call-to-action-form {
     display: flex;
     justify-content: start;
     align-items: stretch;
+    gap: 2rem
 }
 
 .call-to-action-form input {
@@ -138,9 +133,8 @@
 }
 
 .call-to-action-form button {
-    margin-left: 3rem;
     background-color: transparent;
-    border: 3px solid #022a3b;
+    border: 2px solid #022a3b;
     font-size: 1.8rem;
     font-weight: 400;
     color: #022a3b;
@@ -155,8 +149,8 @@
 
 .fourth-section {
     background-color: white;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .fourth-section-container {
@@ -166,7 +160,6 @@
 }
 
 .benefit-item {
-    max-height: 40vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 4rem;
@@ -175,7 +168,7 @@
 .image-wrapper {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .image-wrapper img {
