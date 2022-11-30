@@ -32,7 +32,7 @@
 
 .second-section-text {
     color: #022a3b;
-    font-size: 2.125rem;
+    font-size: 2.125em;
     font-weight: bold;
 }
 
@@ -121,7 +121,7 @@
     outline: none;
     background: none;
     border: 1px solid #b4b4b4;
-    font-size: 1.4rem;
+    font-size: 1.4em;
     padding: .5rem 2rem;
     color: inherit;
     border-radius: 5px;
@@ -135,7 +135,7 @@
 .call-to-action-form button {
     background-color: transparent;
     border: 2px solid #022a3b;
-    font-size: 1.8rem;
+    font-size: 1.8em;
     font-weight: 400;
     color: #022a3b;
     padding: .5rem 2rem;
@@ -184,46 +184,24 @@
 }
 
 .benefit-item-title {
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bold;
     color: #022a3b;
 }
 
 .benefit-item-subtitle {
-    font-size: 1.5rem;
-    color: #194253;
+    color: #3c4a50;
 }
 
 .benefit-item-button {
     background-color: transparent;
     border: 3px solid #022a3b;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     font-weight: 400;
     color: #022a3b;
     padding: .5rem 2rem;
     border-radius: 5px;
     display: flex;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem auto;
-    color: #a3a3a3;
-    font-size: 1.5rem;
-    font-weight: bold;
-    height: 8rem;
-}
-
-footer span a {
-    text-decoration: underline;
-    color: #cfc287;
-}
-
-footer a {
-    text-decoration: none;
-    color: #cfc287;
 }
 
 @media (max-width: 900px) {
@@ -245,6 +223,7 @@ footer a {
 
     .call-to-action-text {
         margin: 0;
+        text-align: center;
     }
 
     .call-to-action-container img {
@@ -254,10 +233,6 @@ footer a {
     .call-to-action-form {
         flex-direction: column;
         align-items: center;
-    }
-
-    .call-to-action-form button {
-        margin: 2rem auto 0 auto
     }
 
     .call-to-action-form input {
