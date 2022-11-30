@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* min-height: 60vh;     */
 }
 
 .greeting-section-text {
@@ -12,6 +11,7 @@
     align-items: flex-start;
     max-width: 40vw;
     margin: 4rem 0;
+    gap: 2rem;
 }
 
 .greeting-section img {
@@ -32,7 +32,7 @@
 
 .second-section-text {
     color: #022a3b;
-    font-size: 2.5rem;
+    font-size: 2.125rem;
     font-weight: bold;
 }
 
@@ -45,6 +45,8 @@
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    padding-top: 6rem;
+    gap: 2rem;
 }
 
 .solution-container {
@@ -55,27 +57,24 @@
 
 .solution-title {
     text-align: center;
-    font-size: 3rem;
     font-weight: bold;
-    margin: 6rem auto 2rem auto;
 }
 
 .solution-item {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 4rem 1fr;
     align-items: center;
-    grid-gap: 2rem;
+    grid-gap: 1rem;
+}
+
+.solution-item img {
+    width: 4rem;
 }
 
 .solution-item-text-title {
-    font-size: 2rem;
+    font-weight: 400;
     padding: 0;
     margin: 0;
-}
-
-.solution-item-text-subtitle {
-    font-size: 1.2rem;
-    color: #c9c8c8;
 }
 
 .call-to-action-window {
@@ -84,7 +83,7 @@
 }
 
 .call-to-action-container {
-    margin-top: 8rem;
+    margin-top: 4rem;
     background-color: white;
     display: flex;
     justify-content: space-between;
