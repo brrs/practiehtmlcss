@@ -132,21 +132,6 @@
     border-color: #022a3b;
 }
 
-.call-to-action-form button {
-    background-color: transparent;
-    border: 2px solid #022a3b;
-    font-size: 1.8em;
-    font-weight: 400;
-    color: #022a3b;
-    padding: .5rem 2rem;
-    border-radius: 5px;
-}
-
-.call-to-action-form button:hover {
-    background-color: #022a3b;
-    color: white;
-}
-
 .fourth-section {
     background-color: white;
     padding-top: 8rem;
@@ -191,17 +176,6 @@
 
 .benefit-item-subtitle {
     color: #3c4a50;
-}
-
-.benefit-item-button {
-    background-color: transparent;
-    border: 3px solid #022a3b;
-    font-size: 1.5em;
-    font-weight: 400;
-    color: #022a3b;
-    padding: .5rem 2rem;
-    border-radius: 5px;
-    display: flex;
 }
 
 @media (max-width: 900px) {
