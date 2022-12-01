@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.rem;
+    font-size: 1.875em;
 }
 
 h3 {
@@ -117,6 +117,7 @@ body {
 .button:hover {
     background-color: #022a3b;
     color: white;
+    cursor: pointer;
 }
 
 .button-accent {
